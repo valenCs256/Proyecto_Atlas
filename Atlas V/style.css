@@ -1,0 +1,729 @@
+/*general*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* seccion de imagen y todo lo que va encima */
+
+.PrimeraSeccion {
+    display: flex;
+    background-image: url(assets/images/banner-bk.jpg);
+    background-position: center;
+    flex-direction: column;
+    background-size:cover;
+    height: 800px;
+}
+
+/*link*/
+
+h3{
+    color: white;
+}
+
+/*primer logo*/
+
+.ellogo{
+    width: 100px;
+}
+
+/*logo y link*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    
+}
+
+/*contenedor tutulo, parrafo y boton*/
+
+.titulo{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*titulo*/
+
+h1{
+    color: white;
+    font-size: 70px;
+    margin: 0px 0px 50px 0px;
+}
+
+/*primer parrafo*/
+
+.parrafo1{
+    color: white;
+    font-size: 20px;
+    width: 1100PX;
+}
+
+/*boton en general*/
+
+button{
+    border-radius: 40px;
+    width: 160px;
+}
+
+/*primer boton*/
+
+.primerboton{
+    color: rgb(4, 4, 100);
+    background-color: #00ffad;
+    font-size: medium;
+    margin-top: 50px;
+    padding: 12px 8px 12px 8px;
+    border: none;
+    font-weight: bold;
+}
+
+/* segunda seccion */
+
+.segunda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* primer h2 */
+.PrimerH2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 90px;
+}
+
+.ParrafoLogo{
+    display: flex;
+    justify-content: center;
+}
+
+/* tres imagenes centrales */
+
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* h2 de los logos y los parrafos */
+
+.Segundoh2{
+    margin: 0px 0px 9px 0px;
+}
+
+/*contenedor de todos los logos y parrafos */
+
+.LogoYTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+}
+
+/* Tercera seccion */
+
+/* Toda la tercera seccion y lo que hay dentro */
+
+.TerceraSeccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
+    padding: 100px 0px;
+    margin-top: 80px;
+    background:linear-gradient(170deg, white 50%, #00ffad 50%);
+}
+
+/* el contenedor de el h2, parrafo, boton y el computador */
+
+.TercerContenedor{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* el h2 de la tercera seccion  */
+
+.Tercerh2{
+    font-size: 45px;
+}
+
+
+/* el boton de la tercera seccion que esta al lado del compu */
+
+.SegundoBoton{
+    color: white;
+    background-color: #192440;
+    margin-top: 50px;
+    padding: 15px 8px 15px 8px;
+    border: none;
+    font-weight: 900;
+}
+
+/* el parrafo de la tercera seccion */
+
+.TercerParrafo{
+    margin-top: 20px;
+}
+
+/* Cuarta seccion */
+
+/* fondo de la cuarta seccion */
+
+.CuartaSeccion{
+    padding: 100px 0px;
+    background-color: #00ffad;
+}
+
+
+/* Toda la cuarta seccion y lo que contiene img tablet, titulo, parrafo y boton */
+
+.CuartoContenedor{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 100%
+}
+
+/* El parrafo de la cuarta seccion */
+
+.CuartoParrafo{
+    margin-top: 20px;
+    width: 510px;
+}
+
+/* el subtitulo que esta en la cuarta seccion al lado del la tablet */
+
+.Cuartoh2{
+    font-size: 45px;
+}
+
+
+
+/* Quinta seccion */
+
+/* Contenedor de  los tres bloques de precios */
+
+.Precios{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+/* contenedor de lista */
+
+ul{
+    list-style: none;
+}
+
+/* El quinto h2 que esta arriba de los bloques de compra */
+
+.Quintoh2{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    margin-top: 80px;
+}
+
+/* Subtitulo que esta dentro de los bloques de compra premium professional y startup */
+
+.Rango{
+    margin: 0px 0px 30px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/*Contenedor de bloque premium */
+
+.Premium{
+    color: white;
+    background-color: #192440;
+    padding: 70px 70px 70px 70px;
+}
+
+/* Boton de precios de los bloques professional y startup */
+
+.BotonPrecios{
+    color: #192440;
+    background-color: white;
+    border-color: #192440;
+    padding: 12px 11px 12px 11px;
+    font-weight: 900;
+    margin-top: 14px;
+}
+
+/* Boton del bloque premium */
+
+.BotonPremium{
+    color: #192440;
+    background-color: #00ffad;
+    border: none;
+    padding: 12px 11px 12px 11px;
+    font-weight: 900;
+    margin-top: 14px;
+}
+
+/* Precio de los tres boques */
+
+.precio {
+    font-size: 70px;
+    font-weight: bold;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+
+.precio small {
+    font-size: 16px;
+}
+
+/* Lista de los tres bloques */
+
+.menu{
+    justify-content: center;
+}
+
+/* Lista en general */
+
+li{
+    font-size: 19px;
+    margin: 0px 0px 14px;
+    display: flex;
+}
+
+.ListaPrecio li{
+    display: flex;
+    justify-content: center;
+}
+
+/* Bloque startup */
+
+.Startup{
+    padding: 70px 70px 70px 70px;
+}
+
+/* Bloque professional */
+
+.Professional{
+    padding: 70px 70px 70px 70px;
+}
+
+/* Sexta seccion */
+
+.SextaSeccion{
+    background-color: gainsboro;
+    padding: 50px;
+}
+
+/* Imagenes de empresas */
+
+.EmpresasLogos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+/* Septima seccion */
+
+/* Cotiene toda la septima seccion */
+
+.SeptimaSeccion{
+    display: flex;
+    background-image: url(assets/images/contact-bk.jpg);
+    height: 700px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+/* h2 contact us */
+
+.Contactoh2{
+    color: white;
+    font-size: 55px;
+    margin: 0px 0px 25px 0px;
+}
+
+/* contenedor de la lista donde se encuentra en email, telefono y direccion */
+
+.ListaContacto{
+    color: white;
+}
+
+/* El ultimo parrafo de la pagina */
+
+.UltimoParrafo{
+    color: white;
+    width: 400px;
+    margin: 0px 0px 25px 0px;
+}
+
+/* Contenedor de el h2 el parrafo y la lista de contacto */
+
+.Contacto{
+    display: flex;
+    flex-direction: column;
+}
+
+/* contenedor del input donde se ingresan los datos */
+
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+/* contiene el nombre y el email donde se ingresan datos */
+
+.NombreYEmail{
+    display: flex;
+    margin: 0px 0px 18px 0px;
+}
+
+/* texto que nombra el imput tu nombre, tu email y mensaje */
+
+.LabelYformulario{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    padding: 0px 50px 0px 0px;
+}
+
+.ContactoYFormulario{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+input{
+    background: none;
+    border: 2px solid #00ffad;
+    padding: 16px 80px 16px 80px;
+}
+
+label{
+    color:#00ffad;
+    font-size: 20px;
+    margin: 0px 0px 12px 0px;
+}
+
+#name{
+    color: white;
+    font-size: 12px;
+}
+
+#email{
+    color: white;
+}
+
+#message{
+    color: white;
+    padding: 30px 0px;
+    margin: 0px 0px 20px 0px;
+}
+
+.UltimoBoton{
+    background-color: #00ffad;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: bold;;
+}
+
+/* footer */
+
+/* Contenedor de footer */
+
+.footer{
+    background-color: #12275b;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* logo facebook */
+
+.LogoFacebook{
+    width: 50px;
+    height: 50px;
+}
+
+/* Logo de demas redes */
+
+.LogoRedes{
+    width: 60px;
+    
+}
+
+@media(min-width: 1280px){
+
+}
+
+@media(max-width: 1279px){
+    
+    .titulo{ 
+        padding: 5%;
+    }
+    .parrafo1{
+        width: 91%;
+    }
+
+    .ParrafoLogo{
+        width: 80%;
+    }
+    /* tercera seccion */
+
+    .h2ParrofoBoton{
+        width: 94%;
+        padding: 3%;
+    }
+
+    .ImagenComputador{
+        width: 40%;
+        margin: 0px 14px 0px 0px;
+    }
+
+    /* cuarta seccion */
+
+    .CuartoContenedor{
+        width: 90%;
+    }
+    .CuartoParrafo{
+        width: 95%;
+    }
+
+    .ImagenTablet{
+        width: 50%;
+    }
+
+    /* Quinta seccion */
+
+    .Precios{
+        width: 95%;
+    }
+
+    /* Septima seccion */
+
+    .Contacto{
+        display: none;
+    }
+
+    /* footer seccion */
+    footer{
+    width: 100%;
+    }
+
+}
+
+@media(max-width: 920px){
+    body{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    .titulo{ 
+        padding: 3%;
+    }
+
+    .ImagenComputador{
+        width: 30%;
+        height: 50%;
+    }
+
+    .ImagenTablet{
+    width: 40%;
+    height: 90%;
+    }
+
+
+    .Startup{
+        width: 16%;
+    }
+
+    .Premium{
+        width: 16%;
+    }
+
+    .Professional{
+        width: 16%;
+    }
+
+    .EmpresasLogos img{
+        width: 21%;
+    }
+
+    .SeptimaSeccion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Formulario{
+        width: 90%;
+        margin: 0px 0px 0px 35px;
+    }
+
+    .LabelYformulario{
+        width: 46%;
+    }
+    
+}
+
+
+@media(max-width: 768px){
+    body{
+        width: 135%;
+    }
+    .CuartoContenedor{
+        display: flex;
+        align-items: center;
+    }
+
+    .titulo{
+        padding: 8%;
+    }
+
+    .parrafo1{
+        font-size: 150%;
+    }
+
+    .ImagenComputador{
+        display: none;
+    }
+
+    .PrimerH2{
+        font-size: 210%;
+    }
+
+    .TercerParrafo{
+        font-size: 130%;
+    }
+
+    .CuartoParrafo{
+        font-size: 120%;
+    }
+    .EmpresasLogos{
+        width: 85%;
+    }
+    .ParrafoLogo{
+        font-size: 150%;
+    }
+
+    .TerceraSeccion{
+        margin-top: 12PX;
+    }
+
+    .Precios{
+        width: 100%;
+    }
+
+    .BotonPremium{
+        width: 80%
+    }
+
+    .BotonPrecios{
+        width: 80%;
+    }
+
+    .Professional{
+        padding: 50px 50px 50px 50px;
+    }
+
+    .Startup{
+        padding: 50px 50px 50px 50px;
+    }
+
+    .Premium{
+        padding: 50px 50px 50px 50px;
+    }
+}
+
+@media(max-width: 480px){
+    body{
+        width: 190%;
+    }
+
+    .ImagenTablet{
+        display: none;
+    }
+
+    main img{
+        width: 85%;
+    }
+
+    .PrimerH2{
+        font-size: 180%;
+    }
+
+    .ParrafoLogo{
+        font-size: 130%;
+    }
+
+    .Rango{
+        font-size: 120%;
+    }
+
+    .Professional{
+        padding: 50px 40px 50px 40px;
+    }
+
+    .Startup{
+        padding: 50px 40px 50px 40px;
+    }
+
+    .Premium{
+        padding: 50px 40px 50px 40px;
+    }
+
+    .Formulario{
+        margin: 0px;
+    }
+
+    .SextaSeccion{
+        display: flex;
+        padding: 3%;
+    }
+
+    .EmpresasLogos{
+        width: 80%;
+    }
+
+    .LogoYTexto{
+        display: flex;
+        align-items: center;
+    }
+
+    .Logos{
+        display: none;;
+    }
+    .CuartoParrafo{
+        font-size: 150%;
+    }
+
+    footer{
+        padding: 0px;
+    }
+}
+
+
+
+
+
